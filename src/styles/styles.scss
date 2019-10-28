@@ -1,5 +1,16 @@
 @import "variables.scss";
+body{
+  font: $font;
+}
 
 p {
-  color: $primaryColor
+  color: $primaryColor;
+  font-size: $defaultSize;
+  // background: white
+}
+
+.logo{
+  max-width: 25%;
+  background: white;
+  opacity: $opaqueBg;
 }
